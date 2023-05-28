@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+    height: 1100px;
+}
+
+.navbar img{
+    width: 80px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-toggler i{
+    color: #fff;
+    margin-left: 100px;
+}
+.navbar .collapse ul{
+margin-left: 90px;
+}
+
+ .un{
+ border-bottom: 2px solid #fff;
+ width: 100%;
+ margin-top: -1px;
+}
+.navbar-brand img{
+    margin-left: 30px;
+}
+
+.nav-item a{
+    margin-left: 20px;
+}
+.container-fluid .left h2{
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+    left: -60px;
+    color: #fff;
+    cursor: pointer;
+}
+.container-fluid .left i{
+    position: relative;
+    left: 30px;
+    top: -13px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.container-fluid .left i:hover{
+    color: rgb(39, 39, 122);
+}
+.navbar {
+    background-color: transparent !important;
+  }
+
+  /* section body */
+
+.container-fluid .row .col-md-6 p{
+    font-size: 70px;
+    position: relative;
+    top: 90px;
+    left: 100px;
+}
+.trait{
+    border-bottom: 2px solid #fff;
+    width: 80%;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.container-fluid .row .col-md-6  img{
+    margin-top: -30px;
+    border-radius: 50px;
+}
+
+.container-fluid .row .col-md-6  h3{
+    font-size: 15px;
+    position: relative;
+    top: 110px;
+    left: 25px;
+     font-family: 'Poppins', sans-serif;
+     color: #ffffff9e; 
+}
+
+.container-fluid .row .col-md-6 .profils{
+    display: flex;
+}
+.container-fluid .row .col-md-6 .profils img{
+    width: 80px;
+    height: 80px;
+    border:4px solid #fff ;
+    position: relative;
+    top: 135px;
+    left: 100px;
+}
+
+.col-md-6 input{
+    background-color: transparent;
+    width: 70%;
+    position: relative;
+    top: -70px;
+    left: 60px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid black;
+}
+.container-fluid .col-md-6 i{
+    color: black;
+    position: relative;
+    left: 540px;
+    top: -100px;
+}
+.container-fluid .col-md-6 h4{
+    position: relative;
+    top: 100px;
+    left: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.container-fluid .col-md-6  .blck{
+    position: relative;
+    left: 600px;
+    top: -200px;
+}
+
+
+   /* lest seection.............................. */
+
+   .container .col .imgg{
+    display: flex;
+    position: relative;
+    left: 50px;
+    top: 70px;
+   }
+
+   .container .col img{
+    width: 360px;
+    height: 300px;
+   }
+
+   .col .connect{
+    position: relative;
+    top: 60px;
+    left: -70px;
+   }
+   .col .connect .title{
+    position: relative;
+    left: 70px;
+    top: -50px;
+   
+   }
+   .col .connect img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+   }
+   .container .col .connect h5{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: -1px;
+   }
+   .container .col .connect p{
+    font-size: 14px;
+    color: #fff;
+   }
+
+      .theinput button{
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 50px;
+        padding: 5px 50px;
+        color: #fff;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        text-decoration: none;
+        display: block;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .theinput button:hover{
+        background-color: rgb(203, 190, 190);
+      color: rgb(255, 255, 255);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .footer{
+     text-align: center;
+     margin-top: 100px;
+     color: #ffffff5e;
+    }
+
+
+  @media (max-width: 768px){
+  body{
+    height: 2000px;
+  }
+
+    .container-fluid .left h2{
+        display: none;
+    }
+    .container-fluid .left i{
+        display: none;
+    }
+   .collapse ul{
+   position: relative;
+   left: -70px;
+   }
+   .container-fluid .row .col-md-6 p{
+   font-size: 40px;
+   margin-top: -90px;
+   margin-left: -50px;
+}
+.container-fluid .row .col-md-6  img{
+    top: 80px;
+    position: relative;
+    width: 110%;
+    border-radius: 20px;
+    left: -5px;
+}
+.un{
+    width: 100%;
+}
+.container-fluid .row .col-md-6 .profils img{
+  position: relative;
+  left: 40px;
+  top: 110px;
+  width: 50px;
+  height: 50px;
+}
+.container-fluid .row .col-md-6 .root{
+    position: relative;
+    top: 165px;
+    left: 100px;
+}
+
+.col-md-6 input{
+  position: relative;
+  top: 20px;
+  left: 55px;
+}
+.container-fluid .col-md-6 i{
+    position: relative;
+    left:260px ;
+    top: -12px;
+}
+.container-fluid .col-md-6 h4{
+    position: relative;
+    z-index: 70;
+    top: 135px;
+    left: 35px;
+    font-size: 18px;
+    color: black;
+}
+.container-fluid .col-md-6  .blck{
+    position: relative;
+    left: 310px;
+    top: -30px;
+    z-index: 70;
+    color: black;
+}
+
+.container .col .imgg{
+    position: relative;
+    top: 150px;
+    left: 30px;
+    display: inline;
+    margin-bottom: 30px;
+}
+
+ .connect img{
+    position: relative;
+    left: 80px;
+   }
+   .connect .title h5,p{
+    position: relative;
+    left: 80px;
+    top: -4px;
+   }
+
+   .theinput button{
+    position: relative;
+    left: 80px;
+    display: block;
+   }
+
+   .footer{
+     color: #ffffff82;
+     position: relative;
+     top: 70px;
+     left: 30px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
